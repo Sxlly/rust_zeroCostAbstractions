@@ -12,5 +12,5 @@ fn main() { //declare main method
         .map(|num| num * num) //map these remaining values into a method squaring them
         .collect(); //collect the final squared values and place them in vector
 
-    println!("{:?}", &result[..5]); //print to terminal 
+    println!("{:?}", &result[..5]); //print to terminal the vector containing the first 5 values that were even and have been squared
 }
